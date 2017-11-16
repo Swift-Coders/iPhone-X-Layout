@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0900B0D61FBD162900E345C5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0900B0D51FBD162900E345C5 /* MainViewController.swift */; };
+		0900B0D81FBD170F00E345C5 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0900B0D71FBD170F00E345C5 /* LaunchViewController.swift */; };
 		09FD61301FBCF937003396B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD612F1FBCF937003396B8 /* AppDelegate.swift */; };
-		09FD61321FBCF937003396B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD61311FBCF937003396B8 /* ViewController.swift */; };
+		09FD61321FBCF937003396B8 /* CapitalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD61311FBCF937003396B8 /* CapitalsViewController.swift */; };
 		09FD61351FBCF937003396B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FD61331FBCF937003396B8 /* Main.storyboard */; };
 		09FD61371FBCF937003396B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FD61361FBCF937003396B8 /* Assets.xcassets */; };
 		09FD613A1FBCF937003396B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FD61381FBCF937003396B8 /* LaunchScreen.storyboard */; };
 		09FD61451FBCF937003396B8 /* iPhone_X_LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD61441FBCF937003396B8 /* iPhone_X_LayoutTests.swift */; };
 		09FD61501FBCF937003396B8 /* iPhone_X_LayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD614F1FBCF937003396B8 /* iPhone_X_LayoutUITests.swift */; };
+		09FD615E1FBCFD20003396B8 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FD615D1FBCFD20003396B8 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0900B0D51FBD162900E345C5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0900B0D71FBD170F00E345C5 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		09FD612C1FBCF937003396B8 /* iPhone X Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone X Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FD612F1FBCF937003396B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09FD61311FBCF937003396B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09FD61311FBCF937003396B8 /* CapitalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalsViewController.swift; sourceTree = "<group>"; };
 		09FD61341FBCF937003396B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09FD61361FBCF937003396B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09FD61391FBCF937003396B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		09FD614B1FBCF937003396B8 /* iPhone X LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone X LayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FD614F1FBCF937003396B8 /* iPhone_X_LayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhone_X_LayoutUITests.swift; sourceTree = "<group>"; };
 		09FD61511FBCF937003396B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FD615D1FBCFD20003396B8 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0900B0D41FBD161700E345C5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				09FD61381FBCF937003396B8 /* LaunchScreen.storyboard */,
+				0900B0D71FBD170F00E345C5 /* LaunchViewController.swift */,
+				09FD613B1FBCF937003396B8 /* Info.plist */,
+				09FD612F1FBCF937003396B8 /* AppDelegate.swift */,
+				09FD615D1FBCFD20003396B8 /* DataSource.swift */,
+				09FD61361FBCF937003396B8 /* Assets.xcassets */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
 		09FD61231FBCF937003396B8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +116,10 @@
 		09FD612E1FBCF937003396B8 /* iPhone X Layout */ = {
 			isa = PBXGroup;
 			children = (
-				09FD612F1FBCF937003396B8 /* AppDelegate.swift */,
-				09FD61311FBCF937003396B8 /* ViewController.swift */,
 				09FD61331FBCF937003396B8 /* Main.storyboard */,
-				09FD61361FBCF937003396B8 /* Assets.xcassets */,
-				09FD61381FBCF937003396B8 /* LaunchScreen.storyboard */,
-				09FD613B1FBCF937003396B8 /* Info.plist */,
+				0900B0D51FBD162900E345C5 /* MainViewController.swift */,
+				09FD61311FBCF937003396B8 /* CapitalsViewController.swift */,
+				0900B0D41FBD161700E345C5 /* Support */,
 			);
 			path = "iPhone X Layout";
 			sourceTree = "<group>";
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09FD61321FBCF937003396B8 /* ViewController.swift in Sources */,
+				09FD615E1FBCFD20003396B8 /* DataSource.swift in Sources */,
+				0900B0D81FBD170F00E345C5 /* LaunchViewController.swift in Sources */,
+				09FD61321FBCF937003396B8 /* CapitalsViewController.swift in Sources */,
 				09FD61301FBCF937003396B8 /* AppDelegate.swift in Sources */,
+				0900B0D61FBD162900E345C5 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
